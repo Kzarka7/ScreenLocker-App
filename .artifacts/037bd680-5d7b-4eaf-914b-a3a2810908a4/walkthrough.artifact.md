@@ -14,8 +14,8 @@ I have implemented the double-tap lock behavior and added haptic feedback to con
 - The app still calls `finish()` immediately on the first tap to keep the home screen visible for the second tap.
 
 ### Renaming
-- **App Name**: The app is now officially named **Screen Locker** (updated from "Screen Lock").
-- **APK Filename**: The generated APK is now named **`Screen Locker.apk`** instead of the generic `app-debug.apk`.
+- **App Name**: The app is now officially named **Screen Locker**.
+- **APK Filename**: The generated APK is now named **`screenlocker-v1.8.apk`**.
 
 ### Build & Versioning
 - Updated the app to **Version 1.8** (`versionCode 9`).
