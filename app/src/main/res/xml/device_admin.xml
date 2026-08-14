@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Declares exactly ONE device-admin policy: force-lock.
+    This is the minimum privilege needed to call
+    DevicePolicyManager.lockNow(). It does NOT request wipe-data,
+    reset-password, disable-camera, encrypted-storage, or any other
+    policy, so Android's "Activate device admin app" screen will only
+    ever show a single, narrow permission to the user.
+-->
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <force-lock />
+    </uses-policies>
+</device-admin>

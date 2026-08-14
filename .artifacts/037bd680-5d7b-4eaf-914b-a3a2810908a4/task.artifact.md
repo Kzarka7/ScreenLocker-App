@@ -1,0 +1,4 @@
+- [x] Adding VIBRATE permission to `AndroidManifest.xml`
+- [x] Implement double-tap logic and haptics in `MainActivity.kt`
+- [x] Update version to 1.6 in `build.gradle.kts`
+- [x] Verify build
