@@ -13,8 +13,12 @@ I have implemented the double-tap lock behavior and added haptic feedback to con
 - The `lastTapTime` is stored in a `companion object`, ensuring it persists while the app process remains active in the background for quick consecutive taps.
 - The app still calls `finish()` immediately on the first tap to keep the home screen visible for the second tap.
 
+### Renaming
+- **App Name**: The app is now officially named **Screen Locker** (updated from "Screen Lock").
+- **APK Filename**: The generated APK is now named **`Screen Locker.apk`** instead of the generic `app-debug.apk`.
+
 ### Build & Versioning
-- Updated the app to **Version 1.6** (`versionCode 7`).
+- Updated the app to **Version 1.8** (`versionCode 9`).
 
 ## Verification Results
 
